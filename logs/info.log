@@ -1,0 +1,7075 @@
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+error: Error on in request: /
+error: Request method: GET
+error: Error on in request: /
+error: Request method: GET
+error: Error on in request: /
+error: Request method: POST
+error: Error on request: /zod-example
+error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "query",
+      "sc"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "undefined",
+    "path": [
+      "body",
+      "amount"
+    ],
+    "message": "Required"
+  }
+]
+error: ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "query",
+      "sc"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "undefined",
+    "path": [
+      "body",
+      "amount"
+    ],
+    "message": "Required"
+  }
+]
+    at Object.get error [as error] (/Users/hvidal/Documents/smu/backend-template/node_modules/zod/lib/types.js:43:31)
+    at ZodObject.parse (/Users/hvidal/Documents/smu/backend-template/node_modules/zod/lib/types.js:141:22)
+    at Guardian.validate (/Users/hvidal/Documents/smu/backend-template/src/app/middlewares/guardian/Guardian.ts:6:12)
+    at /Users/hvidal/Documents/smu/backend-template/src/app/routes/zod-example.route.ts:10:14
+    at handleReturn (/Users/hvidal/Documents/smu/backend-template/node_modules/express-promise-router/lib/express-promise-router.js:24:23)
+    at /Users/hvidal/Documents/smu/backend-template/node_modules/express-promise-router/lib/express-promise-router.js:64:7
+    at handleReturn (/Users/hvidal/Documents/smu/backend-template/node_modules/express-promise-router/lib/express-promise-router.js:24:23)
+    at /Users/hvidal/Documents/smu/backend-template/node_modules/express-promise-router/lib/express-promise-router.js:64:7
+    at Layer.handle [as handle_request] (/Users/hvidal/Documents/smu/backend-template/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hvidal/Documents/smu/backend-template/node_modules/express/lib/router/route.js:144:13)
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+error: Error on in request: /kafka-example
+error: Request method: GET
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/healthss",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/kafka-example",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/kafka-example",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/kafka-example",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/kafka-example",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/kafka-example",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/kafka-example",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/kafka-example",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/kafka-example",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/kafka-example",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/kafka-example",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/stream-mongo",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/stream-mongo",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/stream-mongo",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/stream-mongo",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/stream-mongo",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/stream-mongo",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/stream-mongo",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/stream-mongo",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/stream-mongo",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/mongo-test",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+info: [
+  {
+    "path": "/character/:id",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: [
+  {
+    "path": "/character/:id",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: [
+  {
+    "path": "/health",
+    "methods": [
+      "GET"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  },
+  {
+    "path": "/zod-example",
+    "methods": [
+      "POST"
+    ],
+    "middlewares": [
+      "anonymous"
+    ]
+  }
+]
+info: Server is running at hugo.local:3000
+info: Press CTRL-C to stop
+error: baseUrl: 
+error: body: {}
+error: headers: {"host":"localhost:3000","connection":"keep-alive","sec-ch-ua":"\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\"","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"macOS\"","accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"image","referer":"http://localhost:3000/health","accept-encoding":"gzip, deflate, br","accept-language":"es-ES,es;q=0.9,en;q=0.8"}
+error: hostname: localhost
+error: ip: ::1
+error: method: GET
+error: originalUrl: /images/icons/gear.png
+error: params: {}
+error: query: {}
+error: secure: false
+error: subdomains: []
+error: trailers: {}
+error: baseUrl: 
+error: body: {}
+error: headers: {"host":"localhost:3000","connection":"keep-alive","sec-ch-ua":"\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\"","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"macOS\"","accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"image","referer":"http://localhost:3000/health","accept-encoding":"gzip, deflate, br","accept-language":"es-ES,es;q=0.9,en;q=0.8"}
+error: hostname: localhost
+error: ip: ::1
+error: method: GET
+error: originalUrl: /favicon.ico
+error: params: {}
+error: query: {}
+error: secure: false
+error: subdomains: []
+error: trailers: {}
