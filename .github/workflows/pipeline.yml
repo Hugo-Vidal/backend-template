@@ -1,0 +1,159 @@
+# name: Deployment Pipeline
+
+# on:
+#   push:
+#     branches: [master, develop]
+#   pull_request:
+#     branches: [master,develop]
+#     types: [opened, synchronize]
+
+# jobs:
+#   avoid-reduncy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Cancel Previous Redundant Builds
+#         uses: styfle/cancel-workflow-action@0.9.1
+#         with:
+#           access_token: ${{ github.token }}
+
+#   lint:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#       - uses: actions/setup-node@v3
+#         with:
+#           node-version: 18
+#           registry-url: https://npm.pkg.github.com/
+#           cache-dependency-path: package-lock.json
+#       - name: Install dependencies
+#         run: npm ci
+#         env:
+#           NODE_AUTH_TOKEN: ${{secrets.PAT_GITHUB_RW_REPOS}}
+#       - name: Lint
+#         run: npm run eslint
+
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#       - uses: actions/setup-node@v3
+#         with:
+#           node-version: 18
+#           registry-url: https://npm.pkg.github.com/
+#           cache-dependency-path: package-lock.json
+#       - name: Install dependencies
+#         run: npm ci
+#         env:
+#           NODE_AUTH_TOKEN: ${{secrets.PAT_GITHUB_RW_REPOS}}
+#       - name: Build
+#         run: npm run build
+#       - uses: actions/upload-artifact@v2
+#         with:
+#           name: dist
+#           path: dist
+
+#   unit-test:
+#     needs: [lint,build]
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Create filenames
+#         uses: smu-chile/gh-action-consul-to-env-file@v1.0.1
+#         with:
+#           consul_address: "consul.smu-labs.cl"
+#           consul_token: ${{ secrets.CONSUL_HTTP_TOKEN }}
+#           base_path: 'app-unimarc/ms-promotions-resources/test'
+#           excluded_keys: 'external-dns'
+#           consul_port: 443
+#           consul_use_ssl: true
+#           env_filename: "env_file"
+#       - uses: actions/checkout@v3
+#       - uses: actions/setup-node@v3
+#         with:
+#           node-version: 18
+#           registry-url: https://npm.pkg.github.com/
+#           cache-dependency-path: package-lock.json
+#       - name: Install dependencies
+#         run: npm ci
+#         env:
+#           NODE_AUTH_TOKEN: ${{secrets.PAT_GITHUB_RW_REPOS}}
+#       - uses: actions/download-artifact@v2
+#         with:
+#           name: dist
+#           path: dist
+#       - name: Unit Test
+#         run:  source /home/runner/work/_temp/_github_workflow/env_file && npm run test:unit
+
+#   acceptance-test:
+#     needs: [lint,build]
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Create filenames
+#         uses: smu-chile/gh-action-consul-to-env-file@v1.0.1
+#         with:
+#           consul_address: "consul.smu-labs.cl"
+#           consul_token: ${{ secrets.CONSUL_HTTP_TOKEN }}
+#           base_path: 'integrations/publisher/test'
+#           excluded_keys: 'external-dns'
+#           consul_port: 443
+#           consul_use_ssl: true
+#           env_filename: "env_file"
+#       - uses: actions/checkout@v3
+#       - uses: actions/setup-node@v3
+#         with:
+#           node-version: 18
+#           registry-url: https://npm.pkg.github.com/
+#           cache-dependency-path: package-lock.json
+#       - name: Install dependencies
+#         run: npm ci
+#         env:
+#           NODE_AUTH_TOKEN: ${{secrets.PAT_GITHUB_RW_REPOS}}
+#       - uses: actions/download-artifact@v2
+#         with:
+#           name: dist
+#           path: dist
+#       - name: Acceptance Test
+#         run: source /home/runner/work/_temp/_github_workflow/env_file && npm run test:features
+
+#   Build-Container:
+#     needs: [unit-test, acceptance-test]
+#     if: ${{ github.event_name == 'push' || github.event.pull_request.merged == true }}
+#     uses: smu-chile/gh-reusable-workflows/.github/workflows/build-container.yml@v4.1.2
+#     secrets:
+#       pat_github_token: ${{ secrets.PAT_GITHUB_TOKEN }}
+#       consul_http_token: ${{ secrets.CONSUL_HTTP_TOKEN }}
+#       npm_registry: ${{ secrets.NPM_REGISTRY }}
+
+#   Security-Vulnerabilities-Scan:
+#     if: ${{ github.event_name == 'push' || github.event.pull_request.merged == true }}
+#     needs:
+#       - "Build-Container"
+#     uses: smu-chile/gh-reusable-workflows/.github/workflows/prisma-scan.yml@v4.1.2
+#     secrets:
+#       pcc_console_url: ${{ secrets.PCC_CONSOLE_URL }}
+#       pcc_user: ${{ secrets.PCC_USER }}
+#       pcc_pass: ${{ secrets.PCC_PASS }}
+
+#   Upload:
+#     if: ${{ github.event_name == 'push' || github.event.pull_request.merged == true }}
+#     needs:
+#       - "Security-Vulnerabilities-Scan"
+#     uses: smu-chile/gh-reusable-workflows/.github/workflows/upload-container.yml@v4.1.2
+#     secrets:
+#       huawei_access_key_id: ${{ secrets.HUAWEI_ACCESS_KEY_ID }}
+#       huawei_secret_access_key: ${{ secrets.HUAWEI_SECRET_ACCESS_KEY }}
+#       huawei_user: ${{ secrets.HUAWEI_USER }}
+#       huawei_password: ${{ secrets.HUAWEI_PASSWORD }}
+#       huawei_domain: ${{ secrets.HUAWEI_DOMAIN }}
+#       swr_registry: ${{ secrets.SWR_REGISTRY }}
+#       aws_ecr_access_key: ${{ secrets.AWS_ECR_ACCESS_KEY }}
+#       aws_ecr_secret_key: ${{ secrets.AWS_ECR_SECRET_KEY }}
+#       aws_ecr_registry: ${{ secrets.AWS_ECR_REGISTRY }}
+#       gcp_workload_identity: ${{ secrets.GCP_WORKLOAD_IDENTITY }}
+#       gcp_service_account: ${{ secrets.GCP_SERVICE_ACCOUNT }}
+
+#   Clean:
+#     needs:
+#       - "Build-Container"
+#       - "Security-Vulnerabilities-Scan"
+#       - "Upload"
+#     uses: smu-chile/gh-reusable-workflows/.github/workflows/clean-temporal.yml@v4.1.2

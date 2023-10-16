@@ -1,0 +1,24 @@
+services:
+
+  Shared.Logger:
+    class: ../../../context/shared/infrastructure/impl/WinstonLogger
+    arguments: []
+
+  Template.MongoConfig:
+    factory:
+      class: ../../../context/shared/infrastructure/persistance/mongo/MongoConfigFactory
+      method: "createConfig"
+    arguments: ["template"]
+
+  Template.ConnectionManager:
+    factory:
+      class: ../../../context/shared/infrastructure/persistance/mongo/MongoClientFactory
+      method: "createClient"
+    arguments: ["template", "@Template.MongoConfig"]
+
+  Shared.AxiosClientFactory:
+    class: ../../../context/shared/infrastructure/client/AxiosClientFactory
+
+  Shared.Client:
+    class: ../../../context/shared/infrastructure/client/Client
+    arguments: ["@Shared.AxiosClientFactory"]
